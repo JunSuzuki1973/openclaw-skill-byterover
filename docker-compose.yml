@@ -12,8 +12,8 @@ services:
       - byterover-data:/root/.local/share/brv
     environment:
       - BRV_API_KEY=${BRV_API_KEY:-3vkIgJ0NXwXknDTVnshAhCCocdAscVbdOqq3Vj7QKXc}
-      - BRV_TEAM=Punkrecods
-      - BRV_SPACE=Punkrecods
+      - BRV_TEAM=AI-Agency
+      - BRV_SPACE=punkrecords
     stdin_open: true
     tty: true
 

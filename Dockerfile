@@ -18,5 +18,5 @@ WORKDIR /workspace
 ENV BRV_HEADLESS=true
 ENV BRV_FORMAT=json
 
-# Default command
-CMD ["brv", "--help"]
+# Default command - keep container alive
+CMD ["tail", "-f", "/dev/null"]

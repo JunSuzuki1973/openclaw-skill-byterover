@@ -11,7 +11,7 @@ services:
       # Persist credentials
       - byterover-data:/root/.local/share/brv
     environment:
-      - BRV_API_KEY=${BRV_API_KEY:-REMOVED_BRV_API_KEY}
+      - BRV_API_KEY=${BRV_API_KEY}
       - BRV_TEAM=AI-Agency
       - BRV_SPACE=punkrecords
     stdin_open: true
